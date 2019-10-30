@@ -1,0 +1,161 @@
+
+body{
+  background-color: beige;
+  max-height: 100vh;
+}
+
+#animatedBall{
+  width: 7%;
+  height: 7%;
+}
+
+#logo{
+  width: 20vh;
+}
+
+#logo-nav{
+  width: 2em;
+}
+
+.fondo-oscuro{
+  background: radial-gradient(black, #1e2419 30%, #3f444b);
+  color: whitesmoke;
+  margin: 0;
+}
+
+.fondo-main{
+  background-color:beige;
+  height: 100vh;
+}
+
+#modalSignIn,  #modalCreateUser {
+  background: radial-gradient(black, #1e2419 30%, #3f444b);
+  color: antiquewhite;
+  border-radius: 3em
+}
+#header{
+  height: 21vh;
+  /*background-image: url(../images/grass_header.png);*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0
+}
+
+.fondo-grass{
+  background-image: url(../images/grass_header.png);
+}
+
+.sombra{
+  padding: 0.1em;
+  background-color: rgba(0, 0,0, 0.5)
+}
+
+table{
+  background-color: rgba(255, 255,255, 0.6);
+}
+
+thead{
+  background-color: goldenrod;
+}
+
+#divTabla{
+  height: 50vh;
+  overflow: auto;
+}
+
+#modalChat , #modalToFilter{  border-radius: 25px;
+}
+
+#icon-close {  
+  padding-top: 7px;
+  padding-right: 7px;
+  border-bottom-left-radius: 15px;
+}
+
+.dorado-oscuro{
+  background-color: goldenrod;
+}
+
+.dorado-claro{
+  background-color: gold;
+}
+
+.margin-0{
+  margin: 0
+}
+
+tr:hover{
+background-color: gold;
+}
+
+#arrowBack:hover{
+  border-radius: 50%;
+  background-color: darkslategrey;
+}
+
+.small-typography{
+  font-size: 0.7em
+}
+
+.large-typography{
+  font-size: 1.2em
+}
+
+.landscape {
+  display: none;
+}
+.tamano50 {
+  width: 100%;
+  height: 75vh;
+}
+
+#btnApply {
+  border-radius: 20%
+}
+
+iframe{
+  margin:0;
+  padding: 0;
+}
+.p1{
+  padding: 1em
+}
+.p1-b{
+  padding: 1em;
+  padding-bottom: 0
+}
+
+.collapsible-header{
+  background-color: orange;
+  font-size: 2em
+}
+.collapsible-body{
+  background-color: aliceblue
+}
+
+#chat{
+  max-height: 30vh; 
+  overflow:auto
+}
+
+/*Landscape*/
+
+@media (orientation: landscape) and (max-width: 768px) {
+
+  thead{
+    font-size: 0em
+  }
+
+  .landscape {
+    display: block;
+  }
+
+  .tamano50 {
+    width: 50%
+  }
+
+  .notDisplayLandscape{
+    display: none
+  }
+}
